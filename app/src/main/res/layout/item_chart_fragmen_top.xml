@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--  有数据时显示柱状图  -->
+    <com.github.mikephil.charting.charts.BarChart
+        android:id="@+id/item_chart_fragment_top_chart"
+        android:layout_width="match_parent"
+        android:layout_height="300dp" />
+    <!--  没有数据时提示暂无数据  -->
+    <TextView
+        android:id="@+id/item_chart_fragment_top_tv"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:text="@string/no_data"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:visibility="gone"/>
+</RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

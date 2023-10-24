@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="@color/grey_f3f3f3">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/dialog_more_btn_about"
+            style="@style/dialogMoreStyle"
+            android:text="@string/about"
+            android:drawableTop="@mipmap/it_guanyu" />
+        <Button
+            android:id="@+id/dialog_more_btn_setting"
+            style="@style/dialogMoreStyle"
+            android:text="@string/setting"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:drawableTop="@mipmap/it_shezhi" />
+        <Button
+            android:id="@+id/dialog_more_btn_record"
+            style="@style/dialogMoreStyle"
+            android:text="@string/account_history_record"
+            android:drawableTop="@mipmap/it_jilu" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="3"
+        android:layout_marginTop="20dp">
+        <Button
+            android:id="@+id/dialog_more_btn_info"
+            style="@style/dialogMoreStyle"
+            android:text="@string/account_info"
+            android:drawableTop="@mipmap/it_xiqing"
+            android:layout_marginRight="30dp"/>
+    </LinearLayout>
+    
+    <ImageView
+        android:id="@+id/dialog_more_iv_error"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/ih_error"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"/>
+
+
+</LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

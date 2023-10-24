@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <!--  设置四个角的弧度  -->
+    <corners android:radius="20dp"/>
+    <!--  填充颜色  -->
+    <solid android:color="@color/white"/>
+    <!--  设置边框  -->
+    <stroke android:color="@color/green_006400" android:width="3dp"/>
+
+</shape>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
